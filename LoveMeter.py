@@ -38,6 +38,6 @@ score=int(score)
 if score<10 or score>90:
     print(f"your score is {score},"+color.BOLD+"you go together like "+color.RED+"coke "+color.END+"and"+color.BLUE+" mentos."+color.END)
 elif score>40 and score<50:
-    print(f"your score is {score},you are alright together.")
+    print(f"your score is {score},"+color.BOLD+"you are alright together."+color.END)
 else:
     print(f"your score is {score}")
