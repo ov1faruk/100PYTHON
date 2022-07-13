@@ -23,11 +23,14 @@ L=name.count("l")
 O=name.count("o")
 V=name.count("v")
 E=name.count("e")
+
 love=L+O+V+E
+
 T=name.count("t")
 R=name.count("r")
 U=name.count("u") 
 E=name.count("e") 
+
 true=T+R+U+E
 
 score=f"{true}{love}"
