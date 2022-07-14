@@ -54,7 +54,7 @@ if move == "L":
         print("There are 3 doors: "+color.BOLD+color.RED+" RED"+color.BLUE+" BLUE"+color.YELLOW+" YELLOW\n"+color.END)
         door = input("Choose R, B or Y to open the door\n")
         if door == "Y":
-            print(color.BOLD+color.YELLOW+"YOU FOUND THE TREASURE!!!BRAVO!!\n"+color.ENDL)
+            print(color.BOLD+color.YELLOW+"YOU FOUND THE TREASURE!!!BRAVO!!\n"+color.END)
         elif door == "B":
             print("GAME OVER!!! You are eaten by beasts! :( \n")
         elif door == "R":
