@@ -1,6 +1,6 @@
 import math
 
-height = float(input("enter your height in m: "))
+height = float(input("enter your height in feet: "))
 weight = float(input("enter your weight in kg: "))
 
 class color:
@@ -14,7 +14,8 @@ class color:
    BOLD = '\033[1m'
    UNDERLINE = '\033[4m'
    END = '\033[0m'
-   
+
+height=height*0.305
 bmi=weight/height**2
 bmi=math.ceil(bmi)
 
