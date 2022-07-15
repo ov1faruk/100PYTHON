@@ -52,5 +52,5 @@ random_password=""
 
 for char in password:
     random_password+=char
-print(random_password)
+print("Your password is:"+random_password)
 
